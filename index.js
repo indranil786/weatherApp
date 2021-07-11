@@ -25,7 +25,7 @@ let WeatherSucess=(data)=>{
      let background=currentWeather.weather_state_abbr;
     $(`.background`).css("background-image" ,`url("Images/${background}.jpg")`)
     let mainTemp=`
-    <div class="card text-center m-auto" style="width:25rem">
+    <div class="card text-center m-auto weather-card" style="width:25rem">
  
     <div class="title">
     <h3>${data.title} , ${data.parent.title}</h3>
